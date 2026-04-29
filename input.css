@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+ .progress {
+        @apply w-[50%] bg-white h-3 rounded-2xl mt-2 mb-4;
+    }
+    .progress_green{
+        @apply block h-full bg-green-400 rounded-2xl;
+    }
+    .btn{
+        @apply h-10 w-50 border-b-2 bg-white hover:bg-black  hover:text-white;
+    }
+.list{
+    @apply hover:text-white hover:transition duration-700;
+}
+.head_btn{
+    @apply text-white font-bold text-2xl cursor-pointer;
+}
